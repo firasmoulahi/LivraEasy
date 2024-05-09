@@ -1,0 +1,1 @@
+Il faut installer Oracle DataBase et créer une base de données

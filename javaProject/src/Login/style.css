@@ -1,0 +1,24 @@
+/* styles.css */
+.signUp:hover {
+    -fx-background-color: rgb(238, 179, 179) !important;
+    -fx-text-fill: red;
+}
+
+.account:hover {
+    -fx-background-color: rgb(238, 179, 179) !important;
+    -fx-text-fill: red;
+}
+
+.client:hover {
+    -fx-background-color: rgb(238, 179, 179) !important;
+    -fx-text-fill: red;
+}
+
+.driver:hover {
+    -fx-background-color: rgb(238, 179, 179) !important;
+    -fx-text-fill: red;
+}
+
+
+
+

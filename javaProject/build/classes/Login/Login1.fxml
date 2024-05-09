@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="log1" prefHeight="710.0" prefWidth="910.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Login1Controller">
+      <children>
+         <ImageView fitHeight="710.0" fitWidth="374.0" layoutX="536.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/firas/Documents/NetBeansProjects/login/javaProject/src/img/Vector 623.png" />
+         </image></ImageView>
+      <Text fx:id="wel" fill="#3f3f3f" layoutX="23.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#f72d57" layoutX="221.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LivraEasy">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#f72d57" layoutX="22.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empower Deliveries, Boost Local Economy: LivraEasy, Your Efficient and Affordable Delivery Solution – Connecting Drivers, Users, and Local Businesses" wrappingWidth="415.9093017578125">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#3f3f3f" layoutX="14.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You are a">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="22.0" layoutY="392.0" mnemonicParsing="false" onAction="#clientAction" prefHeight="53.0" prefWidth="160.0" style="-fx-background-color: #F72D57; -fx-border-radius: 5;" styleClass="client" stylesheets="@style.css" text="Client" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="350.0" layoutY="392.0" mnemonicParsing="false" onAction="#DriverAction" prefHeight="53.0" prefWidth="160.0" style="-fx-background-color: #F72D57; -fx-border-radius: 5;" styleClass="driver" stylesheets="@style.css" text="Driver" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="266.0" layoutX="10.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/firas/Downloads/livra.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="227.0" fitWidth="329.0" layoutX="116.0" layoutY="483.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/firas/Documents/NetBeansProjects/login/javaProject/src/img/li.jpg" />
+         </image>
+      </ImageView>
+      </children></AnchorPane>

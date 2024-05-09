@@ -1,0 +1,8 @@
+.primary-background{
+-fx-border-color: black;
+    -fx-border-radius: 50px;
+}
+.secondary-background{
+ -fx-background-color: null;
+ -fx-prompt-text-fill: black;
+}
